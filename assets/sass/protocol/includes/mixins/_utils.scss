@@ -238,12 +238,6 @@
         color: themes.$link-color-hover-inverse;
     }
 
-    a:visited:hover,
-    a:visited:focus,
-    a:visited:active {
-        color: themes.$link-color-visited-hover-inverse;
-    }
-
     @supports (--css: variables) {
         a:link {
             color: var(--link-color-inverse);
@@ -257,12 +251,6 @@
         a:focus,
         a:active {
             color: var(--link-color-hover-inverse);
-        }
-
-        a:visited:hover,
-        a:visited:focus,
-        a:visited:active {
-            color: var(--link-color-visited-hover-inverse);
         }
     }
 }

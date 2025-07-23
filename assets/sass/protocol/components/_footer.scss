@@ -25,12 +25,12 @@
     a:visited {
         font-weight: normal;
         text-decoration: underline;
+    }
 
-        &:hover,
-        &:focus,
-        &:active {
-            text-decoration: none;
-        }
+    a:hover,
+    a:focus,
+    a:active {
+        text-decoration: none;
     }
 }
 
