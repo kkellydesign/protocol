@@ -224,7 +224,7 @@
 
 // Light color links for dark backgrounds.
 @mixin light-links {
-    a:link {
+    a {
         color: themes.$link-color-inverse;
     }
 
@@ -239,7 +239,7 @@
     }
 
     @supports (--css: variables) {
-        a:link {
+        a {
             color: var(--link-color-inverse);
         }
 
@@ -257,8 +257,7 @@
 
 // White color links for dark backgrounds, when link colors are undesirable.
 @mixin white-links {
-    a:link,
-    a:visited {
+    a {
         color: tokens.$color-white;
 
         &:hover,
